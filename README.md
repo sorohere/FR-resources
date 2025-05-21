@@ -3,8 +3,8 @@ This repository provides two essential pre-trained models used in the face resto
 
 ### Detection and Parsing Models
 ```
-wget "https://github.com/sorohere/FR-resources/releases/download/v.0.1.0/detection_Resnet50_Final.pth"
-wget "https://github.com/sorohere/FR-resources/releases/download/v.0.1.0/parsing_parsenet.pth"
+wget https://github.com/sorohere/FR-resources/releases/download/v.0.1.0/detection_Resnet50_Final.pth
+wget https://github.com/sorohere/FR-resources/releases/download/v.0.1.0/parsing_parsenet.pth
 
 echo "Downloaded face detection and parsing models successfully."
 ```
@@ -16,7 +16,7 @@ echo "Downloaded face detection and parsing models successfully."
 
 ### Face Restoration Model
 ```
-wget "https://github.com/sorohere/FR-resources/releases/download/v.0.2.0/FR.pth"
+wget https://github.com/sorohere/FR-resources/releases/download/v.0.2.0/FR.pth
 
 echo "Downloaded Face Restoration model successfully."
 ```

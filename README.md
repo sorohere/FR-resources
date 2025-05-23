@@ -16,9 +16,12 @@ echo "Downloaded face detection and parsing models successfully."
 
 ### Face Restoration Model
 ```
-wget https://github.com/sorohere/FR-resources/releases/download/v.0.2.0/FR.pth
+wget https://github.com/sorohere/FR-resources/releases/download/v.0.2.0/FRv100ep.pth
+wget https://github.com/sorohere/FR-resources/releases/download/v.0.2.0/FRv150ep.pth
+wget https://github.com/sorohere/FR-resources/releases/download/v.0.2.0/FRv200ep.pth
+wget https://github.com/sorohere/FR-resources/releases/download/v.0.2.0/FRv250ep.pth
 
 echo "Downloaded Face Restoration model successfully."
 ```
 
-> The `FR.pth` model is designed to restore low-quality or damaged face images by making use of structure-aware enhancements.
+> The `FRv*.pth` model is designed to restore low-quality or damaged face images by making use of structure-aware enhancements.

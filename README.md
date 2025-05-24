@@ -14,22 +14,23 @@ echo "Downloaded face detection and parsing models successfully."
 
 ### Identity and Landmark Models
 ```
-wget https://github.com/sorohere/FR-resources/releases/download/v.0.1.0/arcface_resnet18.pth -P pathToSave/here
-wget https://github.com/sorohere/FR-resources/releases/download/v.0.1.0/FFHQ_eye_mouth_landmarks_512.pth -P pathToSave/here
+wget https://github.com/sorohere/FR-resources/releases/download/v.0.1.0/arcface_resnet18.pth 
+wget https://github.com/sorohere/FR-resources/releases/download/v.0.1.0/FFHQ_eye_mouth_landmarks_512.pth 
 
 echo "Downloaded ArcFace and landmark models successfully."
 ```
-> `arcface_resnet18.pth`: Face recognition model – used to extract identity features.
-> `FFHQ_eye_mouth_landmarks_512.pth`: Facial landmarks model – detects eye and mouth positions for accurate alignment and restoration.
+> `arcface_resnet18.pth`: Face recognition model – extracts identity-specific features to restore faces preserve the person's identity.
+> `FFHQ_eye_mouth_landmarks_512.pth`: Facial landmarks model – detects eye and mouth positions for accurate alignment.
 
 ### Face Restoration Model
 ```
-wget https://github.com/sorohere/FR-resources/releases/download/v.0.1.0/StyleGAN2_512_Cmul1_FFHQ_B12G4_scratch_800k.pth -P pathToSave/here
+wget https://github.com/sorohere/FR-resources/releases/download/v.0.1.0/StyleGAN2_512_Cmul1_FFHQ_B12G4_scratch_800k.pth 
 
 echo "Downloaded face restoration model successfully."
 ```
 
-> `StyleGAN2_512_Cmul1_FFHQ_B12G4_scratch_800k.pth`: StyleGAN2-based face restoration model – used to generate high-quality restored facial images.
+> `StyleGAN2_512_Cmul1_FFHQ_B12G4_scratch_800k.pth`: StyleGAN2-based model trained on FFHQ dataset – used to generate high-quality, realistic face images with structural consistency during restoration.
+
 
 ### Face Restoration Model
 ```
